@@ -3,6 +3,8 @@
 Este projeto é o resultado do aprendizado que tive através de uma playlist do canal da kenzie no youtube. [Clique aqui](https://www.youtube.com/c/KenzieAcademyBrasil) para ser direcionado ao canal, onde poderá encontrar muitos vídeos interessantes sobre programação.
 O projeto Kenzieflix foi desenvolvido na parte 2 da maratona de programação da Kenzie.
 
+[Página da Kenzie no GitHub](https://github.com/kenzie-academy-brasil)
+
 ## Ferramentas
 
 Para o aprendizado que tive com este projeto, decidi utilizar as facilidades do VScode, porém pode-se utilizar qualquer editor HTML/CSS.
