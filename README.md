@@ -23,7 +23,7 @@ Recomendo que assistam à playlist dedicada ao 'KenzieFlix' no canal da kenzie.
 ### Estrutura de arquivos
 
 - README.md
-- kenzie
+- Kenzieflix
     - index.html
     - /css
       - style.css
