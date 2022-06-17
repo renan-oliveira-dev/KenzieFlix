@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <!-- IMPORTANDO ARQUIVO CSS / ARQUIVO DE ESTILO -->
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Kenzie Flix</title>
+    </head>
+
+    <body>
+
+        <!-- CABEÇALHO -->
+        <header class="cabecalho" id="idcabecalho">
+            <div class="container">
+
+                <!-- LOGO -->
+                <figure class="cabecalho__logo">
+
+                    <!-- IMAGEM -->
+                    <img src="./kenzieflix-main/assets/img/logo.png" alt="Kenzie Flix">
+                    <figcaption>Logomarca Kenzie Flix</figcaption>
+                </figure>
+
+                <!-- MENU DE NAVEGAÇÃO -->
+                <nav class="cabecalho__menu">
+                    <!-- LISTA DE LINKS -->
+                    <ul>
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                        <li>
+                            <a href="#">Séries</a>
+                        </li>
+                        <li>
+                            <a href="#">Filmes</a>
+                        </li>
+                        <li>
+                            <a href="#">Bombando</a>
+                        </li>
+                        <li>
+                            <a href="#">Minha lista</a>
+                        </li>
+                        <li>
+                            <a href="#">Assista de novo</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="cabecalho__menuConfiguracao">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./kenzieflix-main/assets/img/pesquisa.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#">INFANTIL</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./kenzieflix-main/assets/img/presente.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./kenzieflix-main/assets/img/notificacao.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./kenzieflix-main/assets/img/ProfileIMG.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- SEÇÃO DESTAQUE -->
+            <section class="secaoDestaque">
+                <div class="container">
+
+                    <!-- IMAGEM DESTAQUE -->
+                    <figure class="secaoDestaque__imagemDestaque">
+                        <img src="./kenzieflix-main/assets/img/destaque.png" alt="Nome do Filme">
+                        <figcaption>Nome do Filme</figcaption>
+                    </figure>
+
+                    <!-- CONTEUDO DESTAQUE -->
+                    <article class="secaoDestaque__descricaoDestaque">
+                        <h1><img src="./kenzieflix-main/assets/img/titulo-destaque.png" alt="Título destaque"></h1>
+                    <p>Quando um garoto desaparece, a cidade toda participa nas buscas. 
+                        Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+                    </article>
+                    
+                    <!-- LINKS DE NAVEGAÇÃO -->
+                    <div class="secaoDestaque__navegacaoDestaque">
+                        <a href="#"><img src="./kenzieflix-main/assets/img/assistir.png" alt="botao assistir"> Assistir</a>
+                        <a href="#" class="secaoDestaque__navegacaoDestaque--transparente" ><img src="./kenzieflix-main/assets/img/info.png" alt="botao mais informacoes"> Mais informações</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO FILMES EM ALTA -->
+            <section class="secaoFilmes">
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Em alta</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme1.png" alt="filme 1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>                        
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme2.png" alt="filme 2">
+                                <figcaption>Filme 2</figcaption>
+                            </figure>                        
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme3.png" alt="filme 3">
+                                <figcaption>Filme 3</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme4.png" alt="filme 4">
+                                <figcaption>Filme 4</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme1.png" alt="filme 5">
+                                <figcaption>Filme 5</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme2.png" alt="filme 6">
+                                <figcaption>Filme 6</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SEÇÃO ASSISTINDO -->
+            <section class="secaoFilmes secaoFilmes--progressoFilmes">
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Continuar Assistindo</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme1.png" alt="filme 1">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme2.png" alt="filme 2">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme3.png" alt="filme 3">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme4.png" alt="filme 4">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme1.png" alt="filme 5">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SEÇÃO MINHA LISTA -->
+            <section class="secaoFilmes secaoFilmes--minhaLista">
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Minha Lista</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme1.png" alt="filme 1">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme2.png" alt="filme 2">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme3.png" alt="filme 3">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme4.png" alt="filme 4">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme1.png" alt="filme 5">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/filme2.png" alt="filme 6">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SEÇÃO NETFLIX -->
+            <section class="secaoFilmes secaoFilmes--netflix">
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Só na Netflix</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/netflix1.png" alt="filme 1">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/netflix2.png" alt="filme 2">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/netflix3.png" alt="filme 3">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/netflix1.png" alt="filme 4">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/netflix2.png" alt="filme 5">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SEÇÃO TOP 10 -->
+            <section class="secaoFilmes secaoFilmes--top10">
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Top 10 no Brasil hoje</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/rank1.png" alt="rank 1">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/rank2.png" alt="rank 2">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/rank3.png" alt="rank 3">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./kenzieflix-main/assets/img/rank4.png" alt="rank 4">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="rodape">
+            <div class="container">
+                <!-- REDES SOCIAIS-->
+                <div class="rodape__midiasSociais">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./kenzieflix-main/assets/img/fb.png" alt="fb">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./kenzieflix-main/assets/img/ig.png" alt="ig">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./kenzieflix-main/assets/img/tt.png" alt="tt">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./kenzieflix-main/assets/img/yt.png" alt="yt">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="rodape__menuNavegacao">
+                    <ul>
+                        <li>
+                            <a href="#">Idioma e legendas</a>
+                        </li>
+                        <li>
+                            <a href="#">Imprensa</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacidade</a>
+                        </li>
+                        <li>
+                            <a href="#">Entre em contato</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Áudio descrição</a>
+                        </li>
+                        <li>
+                            <a href="#">Relação com investidores</a>
+                        </li>
+                        <li>
+                            <a href="#">Avisos legais</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Centro de Ajuda</a>
+                        </li>
+                        <li>
+                            <a href="#">Carreiras</a>
+                        </li>
+                        <li>
+                            <a href="#">Preferências de cookies</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Cartões pré-pagos</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos de uso</a>
+                        </li>
+                        <li>
+                            <a href="#">Informações corporativas</a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+
+                <a href="#" class="rodape__linkCodigo">Código de Serviço</a>
+                <p>© 1997-2022 KenzieFlix, Inc. by Renan Oliveira {i-062d573a0ee0992422342}</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
